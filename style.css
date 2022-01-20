@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* TITULO E SUBTITULO */
+.fundo{
+    opacity: 0.2;
+}
+
+.titulo-pagina{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal
+}
+
+/* CORPO DA PÁGINA */
+
+body{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: seashell;
+    background-image: linear-gradient(180deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), 
+    url(/code-g320d97d5c_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario{
+    height: 950px;
+    width: 720px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgb(27, 27, 50, 0.8);
+    border-radius: 10px;
+}
+
+.campo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0 0 30px 0;
+}
+
+.campo label{
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+input, select, textarea, button {
+    border-radius: 3px;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select , .campo textarea {
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    border: 1px;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+    resize: vertical;
+}
+
+.campo textarea{
+    font-family: 'Roboto', sans-serif;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+.campo input[type="checkbox"], .campo input[type="radio"]{
+    margin: 0 5px 0;
+}
+
+/*
+.campo select:focus {
+    background-color: royalblue;
+}
+*/
+
+.botao{
+    font-size: 20px;
+    background-color: #37af65;
+    border:0;
+    color: white;
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    border-radius: 2px;
+    display: block;
+    cursor: pointer;
+}
+
+
